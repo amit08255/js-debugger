@@ -10,7 +10,7 @@ function sum(a,b){
 sum.nodedeb()(1,2);
 ```
 
-Above code uses our debugger with sum function and when sum with `deb()` is executed, it logs everything on console such as stack trace, arguments received, function name, data returned, execution time.
+Above code uses our debugger with sum function and when sum with `nodedeb()` is executed, it logs everything on console such as stack trace, arguments received, function name, data returned, execution time. There is another function provided called `nodedebc()` which collapses debug information by default and is more cleaner way.
 
 To use this module in nodejs app import the module -
 
