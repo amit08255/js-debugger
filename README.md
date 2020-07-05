@@ -38,6 +38,8 @@ These utility functions have no dependency. You just have to add the script to y
 
 * **deb** - Simple small debugger for JavaScript to run in browser. It can be included in NodeJS project but debugger will work only in browser on client side.
 
+* **node-deb** - JavaScript debugger which works both in browser as well as in NodeJS.
+
 * **interceptor** - Simple function wrapper to intercept JavaScript function.
 
 <!-- CONTRIBUTING -->
