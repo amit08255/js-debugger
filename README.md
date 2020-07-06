@@ -15,6 +15,7 @@
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
 * [Getting Started](#getting-started)
+* [Coding for Debugging](#coding-for-debugging)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
@@ -41,6 +42,19 @@ These utility functions have no dependency. You just have to add the script to y
 * **node-deb** - JavaScript debugger which works both in browser as well as in NodeJS.
 
 * **interceptor** - Simple function wrapper to intercept JavaScript function.
+
+## Coding for Debugging
+
+Follow below tips to make your code easy to test and debug:
+
+* Understand the problem.
+* Split problem into small sub-problems.
+* Convert sub-problems into very small pure functions (pure function returns same output for same input.)
+* Use functional programming `compose()` utility to solve complex problems using small functions. [Click here](https://github.com/amit08255/functional-tdd)
+* Write functional code with function composition and pure small functions. [Click here](https://github.com/amit08255/functional-tdd)
+* Use functional programming and function composition with factory pattern and dependency injection. [Click here](https://github.com/amit08255/testable-nodejs-code)
+* Functions should be as small and possible and should do single thing.
+* Do not directly modify objects (received as arguments) in your functions instead clone them and modify clone object and return the modified clone object from function. It helps you keep track of changes in function making your code easy to debug [Click here](https://github.com/amit08255/klona)
 
 <!-- CONTRIBUTING -->
 ## Contributing
