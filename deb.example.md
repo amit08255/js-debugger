@@ -22,3 +22,5 @@ To use this module in nodejs app import the module -
 ```js
 import {deb} from './deb';
 ```
+
+* **Tip:** Quickly replace debugger from your code by replacing using this regex (in visual studio code) -- **\\.debc\\(".*?"\\)**
